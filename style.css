@@ -1,0 +1,123 @@
+.logo {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  min-height: 10vh;
+}
+.btn {
+  border: none;
+  border-radius: 44px;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-apple {
+  background: black;
+}
+
+.btn-apple:hover {
+  background-color: black;
+  color: white;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.main-text {
+  font-size: 3.5rem;
+}
+
+.sub-text {
+  padding: 1rem 0rem;
+}
+
+.btn-windows {
+  background: #9579af;
+}
+
+.hero {
+  min-width: 90vh;
+}
+
+.about {
+  min-height: 100vh;
+}
+
+.offers {
+  padding-top: 2rem;
+}
+
+.features img {
+  padding-right: 1rem;
+}
+
+.about-text {
+  padding: 2rem;
+}
+
+.card-img {
+  width: 8rem;
+  height: 8rem;
+}
+
+.client-card {
+  width: 18rem;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  box-shadow: 7px 8px 31px rgba(0, 0, 0, 0.04);
+  border-radius: 40px;
+  border: none;
+}
+
+.comment-title {
+  padding: 4rem;
+}
+
+.frances {
+  color: #9579af;
+}
+
+.yousuf {
+  color: #ea728c;
+}
+
+.christopher {
+  color: #ea72c8;
+}
+
+.client-name {
+  padding-top: 1rem;
+}
+
+.plan-text {
+  padding: 4rem;
+}
+
+.from-text {
+  padding: 4rem 0;
+}
+
+.submit-btn {
+  padding: 0.5rem 2rem;
+}
+
+@media (max-width: 992px) {
+  .hero-img {
+    display: none;
+  }
+  .hero {
+    text-align: center;
+  }
+  .goal {
+    margin: 2rem 0;
+  }
+}
