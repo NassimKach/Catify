@@ -110,6 +110,13 @@ nav {
   padding: 0.5rem 2rem;
 }
 
+.plan-btn {
+  background: #ea728c;
+}
+.plan-btn:hover {
+  color: white;
+}
+
 @media (max-width: 992px) {
   .hero-img {
     display: none;
